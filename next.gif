@@ -1,0 +1,6 @@
+ffuf -u https://hellothere-ruby.vercel.app/FUZZ -w wordlist-practica.txt \
+
+
+"y cuando yo te vi, te vi, te vi..."
+-mc 200,301,302,403 -t 30 -rate 20 -p 10-12.5 -c \
+-o wow.json -of json
